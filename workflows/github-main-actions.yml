@@ -1,0 +1,26 @@
+
+name: Swift
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+    - uses: actions/checkout@v3
+    - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+    - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+    - name: Build
+      run: swift build -v
+    - name: Run tests
+      run: swift test -v
+    - run: echo "🍏 This job's status is ${{ job.status }}."
