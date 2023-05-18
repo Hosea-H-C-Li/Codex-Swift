@@ -23,6 +23,7 @@
 		427E81C62A16637000DFC3AE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81C02A16637000DFC3AE /* ModelData.swift */; };
 		427E81C72A16637000DFC3AE /* EnterPointRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81C22A16637000DFC3AE /* EnterPointRow.swift */; };
 		427E81C82A16637000DFC3AE /* EnterPointList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81C32A16637000DFC3AE /* EnterPointList.swift */; };
+		427E81CE2A167F4B00DFC3AE /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81CD2A167F4B00DFC3AE /* StatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		427E81C02A16637000DFC3AE /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		427E81C22A16637000DFC3AE /* EnterPointRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPointRow.swift; sourceTree = "<group>"; };
 		427E81C32A16637000DFC3AE /* EnterPointList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPointList.swift; sourceTree = "<group>"; };
+		427E81CD2A167F4B00DFC3AE /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				427E81602A165FE500DFC3AE /* CODEX.h */,
+				427E81CA2A167F0300DFC3AE /* SwiftUI */,
 				427E81612A165FE500DFC3AE /* CODEX.docc */,
 			);
 			path = CODEX;
@@ -228,6 +231,22 @@
 				427E81C32A16637000DFC3AE /* EnterPointList.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		427E81CA2A167F0300DFC3AE /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				427E81CC2A167F2E00DFC3AE /* StatusView */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		427E81CC2A167F2E00DFC3AE /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				427E81CD2A167F4B00DFC3AE /* StatusView.swift */,
+			);
+			path = StatusView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427E81CE2A167F4B00DFC3AE /* StatusView.swift in Sources */,
 				427E81622A165FE500DFC3AE /* CODEX.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -642,6 +662,7 @@
 		427E81752A165FE600DFC3AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -661,6 +682,7 @@
 		427E81762A165FE600DFC3AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -680,6 +702,7 @@
 		427E819E2A16611300DFC3AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CODEXSampleApp/CODEXSampleApp.entitlements;
@@ -716,6 +739,7 @@
 		427E819F2A16611300DFC3AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CODEXSampleApp/CODEXSampleApp.entitlements;
