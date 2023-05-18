@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1000,
+        "name": "SwiftUI",
+        "description": "SwiftUI examples",
+        "status": "In progress"
+    },
+    {
+        "id": 1001,
+        "name": "LeetCode",
+        "description": "LeetCode training",
+        "status": "Backlog"
+    },
+    {
+        "id": 1002,
+        "name": "Audio",
+        "description": "Audio & Video training",
+        "status": "Backlog"
+    },
+    {
+        "id": 1003,
+        "name": "Video",
+        "description": "Audio & Video training",
+        "status": "Backlog"
+    },
+    {
+        "id": 1004,
+        "name": "Games",
+        "description": "Games training",
+        "status": "Backlog"
+    },
+    {
+        "id": 1005,
+        "name": "Machine Learning",
+        "description": "Machine Learning training",
+        "status": "Backlog"
+    }
+]
