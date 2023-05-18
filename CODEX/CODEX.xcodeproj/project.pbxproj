@@ -11,14 +11,18 @@
 		427E81682A165FE600DFC3AE /* CODEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427E815D2A165FE500DFC3AE /* CODEX.framework */; };
 		427E816D2A165FE600DFC3AE /* CODEXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E816C2A165FE600DFC3AE /* CODEXTests.swift */; };
 		427E816E2A165FE600DFC3AE /* CODEX.h in Headers */ = {isa = PBXBuildFile; fileRef = 427E81602A165FE500DFC3AE /* CODEX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		427E817E2A16611000DFC3AE /* CODEXSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E817D2A16611000DFC3AE /* CODEXSampleAppApp.swift */; };
-		427E81802A16611000DFC3AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E817F2A16611000DFC3AE /* ContentView.swift */; };
+		427E817E2A16611000DFC3AE /* CODEXSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E817D2A16611000DFC3AE /* CODEXSampleApp.swift */; };
 		427E81822A16611200DFC3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427E81812A16611200DFC3AE /* Assets.xcassets */; };
 		427E81862A16611200DFC3AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427E81852A16611200DFC3AE /* Preview Assets.xcassets */; };
 		427E819A2A16611300DFC3AE /* CODEXSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81992A16611300DFC3AE /* CODEXSampleAppUITests.swift */; };
 		427E819C2A16611300DFC3AE /* CODEXSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E819B2A16611300DFC3AE /* CODEXSampleAppUITestsLaunchTests.swift */; };
 		427E81A72A1661DE00DFC3AE /* CODEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427E815D2A165FE500DFC3AE /* CODEX.framework */; };
 		427E81A82A1661DE00DFC3AE /* CODEX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 427E815D2A165FE500DFC3AE /* CODEX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		427E81C42A16637000DFC3AE /* EnterPointsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 427E81BD2A16637000DFC3AE /* EnterPointsData.json */; };
+		427E81C52A16637000DFC3AE /* EnterPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81BF2A16637000DFC3AE /* EnterPoint.swift */; };
+		427E81C62A16637000DFC3AE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81C02A16637000DFC3AE /* ModelData.swift */; };
+		427E81C72A16637000DFC3AE /* EnterPointRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81C22A16637000DFC3AE /* EnterPointRow.swift */; };
+		427E81C82A16637000DFC3AE /* EnterPointList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E81C32A16637000DFC3AE /* EnterPointList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +70,18 @@
 		427E81672A165FE600DFC3AE /* CODEXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CODEXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		427E816C2A165FE600DFC3AE /* CODEXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODEXTests.swift; sourceTree = "<group>"; };
 		427E817B2A16611000DFC3AE /* CODEXSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CODEXSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		427E817D2A16611000DFC3AE /* CODEXSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODEXSampleAppApp.swift; sourceTree = "<group>"; };
-		427E817F2A16611000DFC3AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		427E817D2A16611000DFC3AE /* CODEXSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODEXSampleApp.swift; sourceTree = "<group>"; };
 		427E81812A16611200DFC3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		427E81832A16611200DFC3AE /* CODEXSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CODEXSampleApp.entitlements; sourceTree = "<group>"; };
 		427E81852A16611200DFC3AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		427E81952A16611300DFC3AE /* CODEXSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CODEXSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		427E81992A16611300DFC3AE /* CODEXSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODEXSampleAppUITests.swift; sourceTree = "<group>"; };
 		427E819B2A16611300DFC3AE /* CODEXSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODEXSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		427E81BD2A16637000DFC3AE /* EnterPointsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EnterPointsData.json; sourceTree = "<group>"; };
+		427E81BF2A16637000DFC3AE /* EnterPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPoint.swift; sourceTree = "<group>"; };
+		427E81C02A16637000DFC3AE /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		427E81C22A16637000DFC3AE /* EnterPointRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPointRow.swift; sourceTree = "<group>"; };
+		427E81C32A16637000DFC3AE /* EnterPointList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPointList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,8 +161,8 @@
 		427E817C2A16611000DFC3AE /* CODEXSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				427E817D2A16611000DFC3AE /* CODEXSampleAppApp.swift */,
-				427E817F2A16611000DFC3AE /* ContentView.swift */,
+				427E81BB2A16637000DFC3AE /* EnterPoint */,
+				427E817D2A16611000DFC3AE /* CODEXSampleApp.swift */,
 				427E81812A16611200DFC3AE /* Assets.xcassets */,
 				427E81832A16611200DFC3AE /* CODEXSampleApp.entitlements */,
 				427E81842A16611200DFC3AE /* Preview Content */,
@@ -184,6 +192,42 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		427E81BB2A16637000DFC3AE /* EnterPoint */ = {
+			isa = PBXGroup;
+			children = (
+				427E81BC2A16637000DFC3AE /* Resources */,
+				427E81BE2A16637000DFC3AE /* Model */,
+				427E81C12A16637000DFC3AE /* Views */,
+			);
+			path = EnterPoint;
+			sourceTree = "<group>";
+		};
+		427E81BC2A16637000DFC3AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				427E81BD2A16637000DFC3AE /* EnterPointsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		427E81BE2A16637000DFC3AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				427E81BF2A16637000DFC3AE /* EnterPoint.swift */,
+				427E81C02A16637000DFC3AE /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		427E81C12A16637000DFC3AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				427E81C22A16637000DFC3AE /* EnterPointRow.swift */,
+				427E81C32A16637000DFC3AE /* EnterPointList.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				427E81862A16611200DFC3AE /* Preview Assets.xcassets in Resources */,
+				427E81C42A16637000DFC3AE /* EnterPointsData.json in Resources */,
 				427E81822A16611200DFC3AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,8 +418,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				427E81802A16611000DFC3AE /* ContentView.swift in Sources */,
-				427E817E2A16611000DFC3AE /* CODEXSampleAppApp.swift in Sources */,
+				427E81C72A16637000DFC3AE /* EnterPointRow.swift in Sources */,
+				427E81C52A16637000DFC3AE /* EnterPoint.swift in Sources */,
+				427E81C62A16637000DFC3AE /* ModelData.swift in Sources */,
+				427E817E2A16611000DFC3AE /* CODEXSampleApp.swift in Sources */,
+				427E81C82A16637000DFC3AE /* EnterPointList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
